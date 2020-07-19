@@ -1,0 +1,32 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 10.0.2.15
+Extension host agent listening on 34979
+
+
+[02:17:48] Extension host agent started.
+[02:17:48] [127.0.0.1][147a524a][ExtensionHostConnection] New connection established.
+[02:17:49] [127.0.0.1][356aa4f6][ManagementConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[02:17:49] [127.0.0.1][147a524a][ExtensionHostConnection] <1635> Launched Extension Host Process.
+[02:17:56] Installing extension: donjayamanne.githistory
+[02:17:58] Downloaded extension: donjayamanne.githistory /tmp/3a0894b8-7ab9-4d37-b59b-7e922bb5c60a
+[02:17:59] Extracted extension to /home/vagrant/.vscode-server/extensions/.donjayamanne.githistory-0.6.8: donjayamanne.githistory
+[02:17:59] Renamed to /home/vagrant/.vscode-server/extensions/donjayamanne.githistory-0.6.8
+[02:17:59] Installation completed. donjayamanne.githistory
+[02:17:59] Extensions installed successfully: donjayamanne.githistory
+[04:25:31] [127.0.0.1][356aa4f6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:25:32] [127.0.0.1][147a524a][ExtensionHostConnection] <1635> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[04:25:32] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[04:30:32] Last EH closed, shutting down

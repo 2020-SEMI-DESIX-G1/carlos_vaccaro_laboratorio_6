@@ -1,0 +1,358 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/vagrant
+> git fetch
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git checkout -q -b git@github.com-CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-CAFAVARO/LabVI.git' cannot be created from it
+> git remote add origin https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI.git
+> git remote add Lab_ https://github.com/CAFAVARO/LabVI
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git checkout -q -b git@github.com-CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-CAFAVARO/LabVI.git' cannot be created from it
+> git checkout -q -b git@github.com-CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-CAFAVARO/LabVI.git' cannot be created from it
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git push -u origin master
+> git check-ignore -v -z --stdin
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI.git'
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git commit --quiet --allow-empty-message --file - --signoff
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show :.gitignore
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git checkout -q -b https-//github.com/CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'https-//github.com/CAFAVARO/LabVI.git' cannot be created from it
+> git checkout -q -b https-//github.com/CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'https-//github.com/CAFAVARO/LabVI.git' cannot be created from it
+> git checkout -q -b https-//github.com/CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'https-//github.com/CAFAVARO/LabVI.git' cannot be created from it
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git commit --quiet --allow-empty-message --file - --signoff
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git fetch
+Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI.git/'
+> git remote add lab-6 https://github.com/CAFAVARO/LabVI.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git push lab-6 master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CAFAVARO/LabVI.git'
+> git remote add lb git@github.com:CAFAVARO/LabVI.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git push lb master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/LabVI.git'
+> git pull --tags
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+> git add -A -- .
+> git commit --quiet --allow-empty-message --file - --signoff
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'vagrant@ubuntu-bionic.(none)')
+> git config --get-all user.name
+> git config --get-all user.email
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s d8e53d4a12418b413a109d82282daed5512b7cc3
+> git check-ignore -v -z --stdin
+> git show HEAD:.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/anymatch/index.js
+> git show :.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/anymatch/index.js
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/anymatch/index.js
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/anymatch/index.js
+> git cat-file -s 24529c8a423ce86a297df1b25065b5e1a9c8f84a
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git show HEAD:.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git show :.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git pull --tags
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+fatal: Not a valid object name HEAD
+> git show HEAD:.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+> git show :.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+fatal: Not a valid object name HEAD
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git push --force-with-lease
+fatal: Not a valid object name HEAD
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git fetch
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+fatal: Not a valid object name HEAD
+Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI.git/'
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+fatal: Not a valid object name HEAD
+> git show HEAD:.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+> git show :.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git push -u lab-6 master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CAFAVARO/LabVI.git'
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+fatal: Not a valid object name HEAD
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+> git pull --tags -r
+fatal: Updating an unborn branch with changes added to the index.
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+fatal: Not a valid object name HEAD
+> git checkout -q -b git-config---global-user.email-johndoe@example.com --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git-config---global-user.email-johndoe@example.com' cannot be created from it
+> git ls-tree -l HEAD -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+> git ls-files --stage -- /home/vagrant/.vscode-server/bin/cd9ea6488829f560dc949a8b2fb789f3cdc05f5d/node_modules/agent-base/History.md
+fatal: Not a valid object name HEAD
+> git cat-file -s 80c88dc401f960a52b1b4360d8c15be077ca2e79
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git checkout -q -b git@github.com-CAFAVARO/LabVI.git --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'git@github.com-CAFAVARO/LabVI.git' cannot be created from it
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s d8e53d4a12418b413a109d82282daed5512b7cc3
+> git show :.gitconfig
+> git ls-files --stage -- /home/vagrant/.gitconfig
+> git cat-file -s da5d16f07d41c4a89470559f6467ac8d3eea02d4
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s d8e53d4a12418b413a109d82282daed5512b7cc3
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.vscode/settings.json
+> git ls-files --stage -- /home/vagrant/.vscode/settings.json
+> git cat-file -s 3b664107303df336bab8010caad42ddaed24550e
+> git check-ignore -v -z --stdin
+> git show :.config/configstore/update-notifier-npm.json
+> git ls-files --stage -- /home/vagrant/.config/configstore/update-notifier-npm.json
+> git cat-file -s 5a4232d0fe40fbc6293e81f98c33732d65dd2cfa
+> git check-ignore -v -z --stdin
+> git show :.bash_history
+> git ls-files --stage -- /home/vagrant/.bash_history
+> git cat-file -s ecb66e72ac648b0dae62228311f6b110dc736dda
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/vagrant/.bash_history
+fatal: your current branch 'master' does not have any commits yet
+> git show :.gitignore
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s d8e53d4a12418b413a109d82282daed5512b7cc3
+> git check-ignore -v -z --stdin
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u lab-6 master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CAFAVARO/LabVI.git'
+> git ls-files --stage -- /home/vagrant/.gitignore
+> git cat-file -s d8e53d4a12418b413a109d82282daed5512b7cc3
+> git show :.gitignore
+> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+> git push -u lb master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/LabVI.git'
+> git push -u lb master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:CAFAVARO/LabVI.git'
+> git push -u lab-6 master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CAFAVARO/LabVI.git'
+> git push -u Carlos_F_Vaccaro_Laboratorio5.git master
+error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:2020-SEMI-DESIX-G1'
+> git push -u lab-6 master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/CAFAVARO/LabVI.git'
+> git fetch
+Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI.git/'
+> git add -A -- .

@@ -1,0 +1,15 @@
+[2020-07-19 04:55:11.731] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-07-19 04:55:11.732] [remoteagent] [info] Extension host agent started.
+[2020-07-19 04:55:11.892] [remoteagent] [info] Deleted from disk donjayamanne.githistory /home/vagrant/.vscode-server/extensions/donjayamanne.githistory-0.6.5
+[2020-07-19 04:55:12.472] [remoteagent] [info] [127.0.0.1][9a9f6a4d][ManagementConnection] New connection established.
+[2020-07-19 04:55:12.486] [remoteagent] [info] [127.0.0.1][82e1dce0][ExtensionHostConnection] New connection established.
+[2020-07-19 04:55:12.986] [remoteagent] [info] [127.0.0.1][82e1dce0][ExtensionHostConnection] <22921> Launched Extension Host Process.

@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'star' ]
+2 info using npm@6.14.5
+3 info using node@v14.3.0
+4 verbose config Skipping project config: /home/vagrant/.npmrc. (matches userconfig)
+5 verbose npm-session 673a1ad9dfc18264
+6 verbose stack Error: npm star [<pkg>...]
+6 verbose stack npm unstar [<pkg>...]
+6 verbose stack
+6 verbose stack alias: unstar
+6 verbose stack     at /usr/lib/node_modules/npm/lib/star.js:35:29
+6 verbose stack     at tryCatcher (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+6 verbose stack     at Function.Promise.attempt.Promise.try (/usr/lib/node_modules/npm/node_modules/bluebird/js/release/method.js:39:29)
+6 verbose stack     at EventEmitter.star (/usr/lib/node_modules/npm/lib/star.js:34:16)
+6 verbose stack     at Object.commandCache.<computed> (/usr/lib/node_modules/npm/lib/npm.js:156:13)
+6 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/bin/npm-cli.js:131:30)
+6 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:79:11)
+7 verbose cwd /home/vagrant
+8 verbose Linux 4.15.0-106-generic
+9 verbose argv "/usr/bin/node" "/usr/bin/npm" "star"
+10 verbose node v14.3.0
+11 verbose npm  v6.14.5
+12 error npm star [<pkg>...]
+12 error npm unstar [<pkg>...]
+12 error
+12 error alias: unstar
+13 verbose exit [ 1, true ]

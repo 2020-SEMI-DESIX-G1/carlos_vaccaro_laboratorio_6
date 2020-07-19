@@ -1,0 +1,27 @@
+{
+  "name": "vagrant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo:start": "docker run --rm -p=27017 --env-file=./.env --name=topespii --lab6--mongo -d centos/mongodb 32 centos7",
+    "mongo:stop" :"docker stop topespii--lab6--mongo",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI/issues"
+  },
+  "homepage": "https://github.com/CAFAVARO/git-github.com-CAFAVARO-LabVI#readme"
+}

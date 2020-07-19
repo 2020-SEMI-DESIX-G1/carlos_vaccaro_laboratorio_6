@@ -1,0 +1,22 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 10.0.2.15
+IP Address: 172.17.0.1
+Extension host agent listening on 35241
+
+
+[04:55:11] Extension host agent started.
+[04:55:11] Deleted from disk donjayamanne.githistory /home/vagrant/.vscode-server/extensions/donjayamanne.githistory-0.6.5
+[04:55:12] [127.0.0.1][9a9f6a4d][ManagementConnection] New connection established.
+[04:55:12] [127.0.0.1][82e1dce0][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[04:55:12] [127.0.0.1][82e1dce0][ExtensionHostConnection] <22921> Launched Extension Host Process.

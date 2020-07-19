@@ -1,0 +1,104 @@
+{
+	"name": "emojis4git",
+	"displayName": "Gitmoji Commit",
+	"publisher": "benjaminadk",
+	"description": "A utility to compose GitHub commit messages with emojis. Based on Gitmoji.",
+	"version": "2.1.2",
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"keywords": [
+		"emoji",
+		"git",
+		"commit",
+		"github",
+		"gitmoji",
+		"source",
+		"control"
+	],
+	"markdown": "github",
+	"activationEvents": [
+		"onCommand:extension.gitmojiCommit",
+		"onCommand:extension.gitmojiCheatSheet"
+	],
+	"icon": "icon.png",
+	"main": "./src/extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/benjaminadk/emojigit.git"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.gitmojiCommit",
+				"title": "Create Commit Message",
+				"category": "Gitmoji Commit"
+			},
+			{
+				"command": "extension.gitmojiCheatSheet",
+				"title": "Open Cheat Sheet",
+				"category": "Gitmoji Commit"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Gitmoji Commit Configuration",
+			"properties": {
+				"gitmoji.emojiSyntax": {
+					"type": "string",
+					"default": "colon",
+					"enum": [
+						"colon",
+						"unicode"
+					],
+					"markdownDescription": "Use colon syntax (e.g. `:tada:`) or Unicode (e.g. 🎉) in commit message.",
+					"scope": "application"
+				},
+				"gitmoji.autoCommit": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Automatically execute git commit command. [Read more here.](https://github.com/benjaminadk/emojigit#configuration)",
+					"scope": "application"
+				},
+				"gitmoji.autoClose": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Close terminal after commit.",
+					"scope": "application"
+				},
+				"gitmoji.customEmoji": {
+					"type": "boolean",
+					"default": false,
+					"markdownDescription": "Use your own custom emoji mapping.",
+					"scope": "application"
+				},
+				"gitmoji.customEmojiMap": {
+					"type": "array",
+					"default": [],
+					"markdownDescription": "Define your own custom emoji mapping. Must be an array of objects. Each object must contain the following properties: \n - `emoji` - a string containing the unicode emoji itself.  (e.g. `'✨'`) \n - `colon` - a string representing the github markdown colon syntax for the emoji.  (e.g. `':sparkles:'`) \n - `text` - a string describing the type of commit this emoji represents.  (e.g. `'Initial commit'`) \n - Examples of emojis supported by Github can be found [here](https://gist.github.com/rxaviers/7360908)",
+					"scope": "application"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.1.4",
+		"vscode": "^1.1.25",
+		"eslint": "^4.11.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "1c7898f5-b58c-4d20-a325-23686c9efd63",
+		"publisherId": "9e9e3024-333c-4e5d-9f27-6be4ac916ec2",
+		"publisherDisplayName": "benjaminadk"
+	}
+}
